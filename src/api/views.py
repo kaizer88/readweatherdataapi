@@ -25,7 +25,7 @@ class ReadDataApi(APIView):
     #         data = json.load(f)
     #     return Response(data)
 
-    def post(self, request):
+    def post(self, request, *args, **kwargs):
         """ Requested weather results"""
         serializer = self.serializer_class(data=request.data)
 
@@ -50,10 +50,10 @@ class ReadDataApi(APIView):
                     output.append(data['weatherdata']['location'][i]['forecast']['days'][:numberOfDays])
 
 
-            msg = f'City {city} - {numberOfDays}'
+            # msg = f'City {city} - {numberOfDays}'
 
-            default = [12, 19, 3, 5, 2, 3]
-            labels = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
+            # default = [12, 19, 3, 5, 2, 3]
+            # labels = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
 
             data = {
                 # "labels": labels,

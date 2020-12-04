@@ -11,40 +11,40 @@
               "min": 10,
               "max": 11,
               "average": 10.5,
-              "median ": 13,
-              "humidity ": 12
+              "median": 13,
+              "humidity": 12
             },
             {
               "no": 2,
               "min": 13,
               "max": 14,
               "average": 15,
-              "median ": 16,
-              "humidity ": 17
+              "median": 16,
+              "humidity": 17
             },
             {
               "no": 3,
               "min": 12,
               "max": 22,
               "average": 13,
-              "median ": 12,
-              "humidity ": 12
+              "median": 12,
+              "humidity": 12
             },
             {
               "no": 4,
               "min": 17,
               "max": 19,
               "average": 15,
-              "median ": 14,
-              "humidity ": 15
+              "median": 14,
+              "humidity": 15
             },
             {
               "no": 5,
               "min": 22,
               "max": 26,
               "average": 23,
-              "median ": 24,
-              "humidity ": 24
+              "median": 24,
+              "humidity": 24
             }
           ]
         }
@@ -59,40 +59,40 @@
               "min": 22,
               "max": 33,
               "average": 26,
-              "median ": 27,
-              "humidity ": 18
+              "median": 27,
+              "humidity": 18
             },
             {
               "no": 2,
               "min": 31,
               "max": 36,
               "average": 34,
-              "median ": 33,
-              "humidity ": 7
+              "median": 33,
+              "humidity": 55
             },
             {
               "no": 3,
               "min": 34,
               "max": 37,
               "average": 34,
-              "median ": 33,
-              "humidity ": 32
+              "median": 33,
+              "humidity": 32
             },
             {
               "no": 4,
               "min": 5,
               "max": 8,
               "average": 5,
-              "median ": 6,
-              "humidity ": 1
+              "median": 6,
+              "humidity": 15
             },
             {
               "no": 5,
               "min": 8,
               "max": 8,
               "average": 5,
-              "median ": 6,
-              "humidity ": 3
+              "median": 6,
+              "humidity": 35
             }
           ]
         }
@@ -107,40 +107,40 @@
               "min": 19,
               "max": 30,
               "average": 25,
-              "median ": 26,
-              "humidity ": 20
+              "median": 26,
+              "humidity": 20
             },
             {
               "no": 2,
               "min": 32,
               "max": 37,
               "average": 22,
-              "median ": 23,
-              "humidity ": 23
+              "median": 23,
+              "humidity": 23
             },
             {
               "no": 3,
               "min": 32,
               "max": 42,
               "average": 36,
-              "median ": 4,
-              "humidity ": 6
+              "median": 4,
+              "humidity": 6
             },
             {
               "no": 4,
               "min": 7,
               "max": 9,
               "average": 5,
-              "median ": 6,
-              "humidity ": 4
+              "median": 6,
+              "humidity": 4
             },
             {
               "no": 5,
               "min": 34,
               "max": 36,
               "average": 35,
-              "median ": 33,
-              "humidity ": 31
+              "median": 33,
+              "humidity": 31
             }
           ]
         }
