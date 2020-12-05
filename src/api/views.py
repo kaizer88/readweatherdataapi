@@ -16,15 +16,6 @@ class ReadDataApi(APIView):
     permission_classes = []
     serializer_class = serializers.ReadSerializer
 
-    # def get(self, request):
-    #
-    #     path = settings.DATA
-    #     filename = 'data.json'
-    #     file_path = p.Path("{0}/{1}".format(path, filename))
-    #     with open(file_path, 'r') as f:
-    #         data = json.load(f)
-    #     return Response(data)
-
     def post(self, request, *args, **kwargs):
         """ Requested weather results"""
         serializer = self.serializer_class(data=request.data)
@@ -40,25 +31,14 @@ class ReadDataApi(APIView):
 
             with open(file_path, 'r') as f:
                 data = json.load(f)
-
-
             f.close()
+
             output = []
             for i in range(len(data['weatherdata']['location'])):
                 if city in data['weatherdata']['location'][i]['name']:
-                    # output.append(data['weatherdata']['location'][i])
                     output.append(data['weatherdata']['location'][i]['forecast']['days'][:numberOfDays])
 
-
-            # msg = f'City {city} - {numberOfDays}'
-
-            # default = [12, 19, 3, 5, 2, 3]
-            # labels = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
-
             data = {
-                # "labels": labels,
-                # "default": default,
-                # "msg": msg,
                 "city":city,
                 "output":output
             }
